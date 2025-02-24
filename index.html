@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en" data-bs-theme="blue-theme">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PHYIOLINE | Dashboard</title>
+  <!--favicon-->
+  <link rel="icon" href="images/Frame 127.svg" type="image/png">
+  <!-- loader-->
+  <link href="assets/css/pace.min.css" rel="stylesheet">
+  <script src="assets/js/pace.min.js"></script>
+
+  <!--plugins-->
+  <link href="assets/plugins/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/metisMenu.min.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/metismenu/mm-vertical.css">
+  <link rel="stylesheet" type="text/css" href="assets/plugins/simplebar/css/simplebar.css">
+  <!--bootstrap css-->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Material+Icons+Outlined" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+ 
+    <!--main css-->
+  <link href="assets/css/bootstrap-extended.css" rel="stylesheet">
+  <link href="sass/main.css" rel="stylesheet">
+  <link href="sass/dark-theme.css" rel="stylesheet">
+  <link href="sass/semi-dark.css" rel="stylesheet">
+  <link href="sass/bordered-theme.css" rel="stylesheet">
+  <link href="sass/responsive.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/dash.css">
+
+</head>
+
+<body>
+
+  <!--start header-->
+  <header class="top-header">
+    <nav class="navbar navbar-expand align-items-center gap-4">
+      <div class="btn-toggle" id="toggle-button">
+        <a href="javascript:;"><i class="material-icons-outlined">menu</i></a>
+      </div>
+      <div class="card-body search-content">
+      </div>
+      <ul class="navbar-nav gap-1 nav-right-links align-items-center">
+        
+
+        <li class="nav-item dropdown">
+          
+           
+            <div class="notify-list">
+              
+              
+              
+            </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a href="javascrpt:;" class="dropdown-toggle dropdown-toggle-nocaret" data-bs-toggle="dropdown">
+            <img src="images/Frame 127.svg" class="rounded-circle p-1 border" width="45" height="45" alt="">
+          </a>
+          <div class="dropdown-menu dropdown-user dropdown-menu-end shadow">
+            <a class="dropdown-item  gap-2 py-2" href="javascript:;">
+              <div class="text-center">
+                <img src="images/Frame 127.svg" class="rounded-circle p-1 shadow mb-3" width="90" height="90" alt="">
+                <h5 class="user-name mb-0 fw-bold">PHYIOLINE</h5>
+              </div>
+            </a>
+           
+            <hr class="dropdown-divider">
+            <a class="dropdown-item d-flex align-items-center gap-2 py-2" href="javascript:;"><i
+                class="material-icons-outlined">power_settings_new</i>Logout</a>
+          </div>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+  <!--end top header-->
+
+
+  <!--start sidebar-->
+  <aside class="sidebar-wrapper" data-simplebar="true">
+    <div class="sidebar-header">
+      <!-- <div class="logo-icon">
+        <img src="assets/images/logo-icon.png" class="logo-img" alt="">
+      </div> -->
+      <div class="logo-name flex-grow-1 text-center fw-bold">
+        <img src="images/Frame 131.svg" width="170px"  alt="">
+      </div>
+      <div class="sidebar-close">
+        <span class="material-icons-outlined">close</span>
+      </div>
+    </div>
+    <div class="sidebar-nav">
+      <!--navigation-->
+      <ul class="metismenu" id="sidenav">
+        <li>
+          <a href="/">
+            <div class="parent-icon"><i class="material-icons-outlined">home</i>
+            </div>
+            <div class="menu-title">Dashboard</div>
+          </a>
+        </li>
+        <li>
+          <a href="users.html">
+            <div class="parent-icon"><i class="material-icons-outlined">person</i>
+            </div>
+            <div class="menu-title">users</div>
+          </a>
+        </li>
+        <li>
+          <a href="supplier.html">
+            <div class="parent-icon"><i class="fa-solid fa-user-circle"></i>
+            </div>
+            <div class="menu-title">Supplier</div>
+          </a>
+        </li>
+        <li>
+          <a href="categories.html">
+            <div class="parent-icon"><i class="fa-solid fa-list"></i>
+            </div>
+            <div class="menu-title">categories</div>
+          </a>
+        </li>
+        <li>
+          <a href="products.html">
+            <div class="parent-icon"><i class="bi bi-box-seam"></i>
+            </div>
+            <div class="menu-title">products</div>
+          </a>
+        </li>
+
+     
+        <li>
+          <a href="orders.html">
+            <div class="parent-icon"><i class="bi bi-cart"></i>
+            </div>
+            <div class="menu-title">orders</div>
+          </a>
+        </li>
+      
+      </ul>
+
+      <div id="footer-section" style="padding-top: 300px;" class="text-center">
+        <p class="mb-1 p-0">Copyright © 2024. All right reserved.</p>
+        <p>Developed by<a href="https://brmja.tech/" target="_blank"> brmja.tech</a></p>
+      </div>
+        
+      <!--end navigation-->
+    </div>
+   
+  </aside>
+  <!--end sidebar-->
+
+  <main class="main-wrapper">
+    <div class="main-content">
+      <div class="page-breadcrumb d-none d-sm-flex align-items-center mb-3">
+        <div class="breadcrumb-title pe-3">PHYIOLINE | Dashboard</div>
+      </div>
+  
+      <div class="container">
+        <div class="row justify-content-center align-items-center" style="min-height: 70vh;">
+          <div class="col-md-12  text-center">
+            <div class="Dashboard-img">
+              <img src="images/Frame 131.svg" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  
+
+      
+
+
+  <!--bootstrap js-->
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+
+  <script>
+document.getElementById('toggle-button').addEventListener('click', function() {
+ 
+  var footer = document.getElementById('footer-section');
+  
+  
+  if (footer.style.display === "none") {
+    footer.style.display = "block"; 
+  } else {
+    footer.style.display = "none"; 
+  }
+});
+  </script>
+
+
+
+  <!--plugins-->
+  <script src="assets/js/jquery.min.js"></script>
+  <!--plugins-->
+  <script src="assets/plugins/perfect-scrollbar/js/perfect-scrollbar.js"></script>
+  <script src="assets/plugins/metismenu/metisMenu.min.js"></script>
+  <script src="assets/plugins/apexchart/apexcharts.min.js"></script>
+  <script src="assets/plugins/peity/jquery.peity.min.js"></script>
+  <script src="assets/plugins/chartjs/js/chart.js"></script>
+  <script src="assets/plugins/chartjs/js/chartjs-custom.js"></script>
+  <script src="assets/plugins/simplebar/js/simplebar.min.js"></script>
+  <script>
+    $(".data-attributes span").peity("donut")
+  </script>
+
+  <script src="assets/js/data-widgets.js"></script>
+  <script src="assets/js/main.js"></script>
+  
+
+</body>
+
+</html>
