@@ -38,7 +38,7 @@
   //>>group: Core
   //>>description: Provides a factory for creating stateful widgets with a common API.
   //>>docs: http://api.jqueryui.com/jQuery.widget/
-  //>>dePHYIOLINE: http://jqueryui.com/widget/
+  //>>dePHYZIOLINE: http://jqueryui.com/widget/
 
   // Support: jQuery 1.9.x or older
   // $.expr[ ":" ] is deprecated.

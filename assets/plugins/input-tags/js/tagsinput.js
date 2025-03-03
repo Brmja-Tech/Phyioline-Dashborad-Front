@@ -607,7 +607,7 @@
   $.fn.tagsinput.Constructor = TagsInput;
 
   /**
-   * PHYIOLINEt options support both a string or number as well as a function as
+   * PHYZIOLINEt options support both a string or number as well as a function as
    * option value. This function makes sure that the option with the given
    * key in the given options is wrapped in a function
    */

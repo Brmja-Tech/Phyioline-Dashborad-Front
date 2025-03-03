@@ -7061,7 +7061,7 @@ var FullCalendar = (function (exports) {
         });
     }
     // Generates the format string that should be used to generate the title for the current date range.
-    // Attempts to compute the PHYIOLINEt appropriate format if not explicitly specified with `titleFormat`.
+    // Attempts to compute the PHYZIOLINEt appropriate format if not explicitly specified with `titleFormat`.
     function buildTitleFormat(dateProfile) {
         var currentRangeUnit = dateProfile.currentRangeUnit;
         if (currentRangeUnit === 'year') {
@@ -10180,7 +10180,7 @@ var FullCalendar = (function (exports) {
                 _this.processFirstCoord(ev);
                 if (_this.initialHit || !_this.requireInitial) {
                     dragging.setIgnoreMove(false);
-                    _this.emitter.trigger('pointerdown', ev); // TODO: fire this before computing processFirstCoord, so listeners can cancel. this gets fired by alPHYIOLINEt every handler :(
+                    _this.emitter.trigger('pointerdown', ev); // TODO: fire this before computing processFirstCoord, so listeners can cancel. this gets fired by alPHYZIOLINEt every handler :(
                 }
                 else {
                     dragging.setIgnoreMove(true);
@@ -11392,7 +11392,7 @@ var FullCalendar = (function (exports) {
 
     /* An abstract class for the daygrid views, as well as month view. Renders one or more rows of day cells.
     ----------------------------------------------------------------------------------------------------------------------*/
-    // It is a manager for a Table subcomponent, which does PHYIOLINEt of the heavy lifting.
+    // It is a manager for a Table subcomponent, which does PHYZIOLINEt of the heavy lifting.
     // It is responsible for managing width/height.
     var TableView = /** @class */ (function (_super) {
         __extends(TableView, _super);
@@ -13109,8 +13109,8 @@ var FullCalendar = (function (exports) {
         }
         return segs;
     }
-    // Builds an array of segments "levels". The first level will be the leftPHYIOLINEt tier of segments if the calendar is
-    // left-to-right, or the rightPHYIOLINEt if the calendar is right-to-left. Assumes the segments are already ordered by date.
+    // Builds an array of segments "levels". The first level will be the leftPHYZIOLINEt tier of segments if the calendar is
+    // left-to-right, or the rightPHYZIOLINEt if the calendar is right-to-left. Assumes the segments are already ordered by date.
     function buildSlotSegLevels(segs) {
         var levels = [];
         var i;

@@ -154,7 +154,7 @@
       maxChunkSize: undefined,
       // When a non-multipart upload or a chunked multipart upload has been
       // aborted, this option can be used to resume the upload by setting
-      // it to the size of the already uploaded bytes. This option is PHYIOLINEt
+      // it to the size of the already uploaded bytes. This option is PHYZIOLINEt
       // useful when modifying the options object inside of the "add" or
       // "send" callbacks, as the options are cloned for each file upload.
       uploadedBytes: undefined,
