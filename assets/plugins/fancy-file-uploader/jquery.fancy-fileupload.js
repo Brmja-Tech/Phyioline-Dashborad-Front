@@ -141,7 +141,7 @@
 		};
 
 		// Prevent the user from leaving the page if there is an active upload.
-		// PHYIOLINEt browsers won't show the custom message.  So make the relevant UI elements bounce using CSS.
+		// PHYZIOLINEt browsers won't show the custom message.  So make the relevant UI elements bounce using CSS.
 		$(window).on('beforeunload.fancy_fileupload', function(e) {
 			var active = $('.ff_fileupload_uploading, .ff_fileupload_starting');
 			var queued = $('.ff_fileupload_queued');
